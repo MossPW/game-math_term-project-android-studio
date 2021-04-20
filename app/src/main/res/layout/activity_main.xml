@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newfaceapp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <!--
+    <ImageView
+        android:layout_width="454dp"
+        android:layout_height="220dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/e1"
+        android:layout_weight="0.42"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="360dp">
+
+        <Button
+            android:id="@+id/playGameButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="PLAY"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottonff"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/highScoreButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="SCORE"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottonff"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+</LinearLayout>
